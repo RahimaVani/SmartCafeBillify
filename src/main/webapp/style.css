@@ -1,0 +1,158 @@
+/* ===== GENERAL ===== */
+body {
+    margin: 0;
+    font-family: "Inter", Arial;
+}
+
+/* ===== LOGIN PAGE ===== */
+.login-body {
+    background: #faebd7; /* creamy */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-card {
+    width: 380px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    text-align: center;
+}
+
+/* FIX LOGIN ICON UNTUK SVG */
+.login-icon img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 8px;
+}
+
+.login-card h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #5a3a1e;
+    margin-bottom: 20px;
+}
+
+.sub {
+    font-size: 14px;
+    color: #a9876a;
+}
+
+label {
+    display: inline-block;
+    margin-left: 10px;
+    text-align: left;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+input {
+    width: 90%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid #d8c3a5;
+    border-radius: 8px;
+    background: #f8f5f0;
+}
+
+.btn-login {
+    width: 95%;
+    margin-top: 20px;
+    padding: 12px;
+    border: none;
+    background: #d28a39;
+    color: white;
+    font-size: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn-login:hover {
+    background: #b76d22;
+}
+
+.demo-info {
+    margin-top: 15px;
+    font-size: 12px;
+    color: #8b6d4a;
+}
+
+/* ===== DASHBOARD ===== */
+.dashboard-body {
+    background: #fff8ee;
+}
+
+.navbar {
+    background: #f2b066;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.logout-btn {
+    padding: 8px 18px;
+    background: white;
+    border-radius: 8px;
+    color: #b85f1a;
+    font-weight: bold;
+    text-decoration: none;
+    border: 2px solid #b85f1a;
+}
+
+.logout-btn:hover {
+    background: #b85f1a;
+    color: white;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 70px;
+}
+
+.menu-card {
+    width: 260px;
+    color: white;
+    text-align: center;
+    padding: 35px;
+    border-radius: 25px;
+    text-decoration: none;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    transition: 0.2s;
+}
+
+.menu-card:hover {
+    transform: translateY(-8px);
+}
+
+/* === ICON FIX FOR SVG === */
+.menu-card .icon {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-card .icon img {
+    width: 70px;
+    height: 70px;
+}
+
+.icon img {
+    width: 60px;
+    height: 60px;
+}
+
+/* COLOR THEMES */
+.purple { background: linear-gradient(#d389ff, #7d1fff); }
+.blue   { background: linear-gradient(#48a0ff, #0054d3); }
+.green  { background: linear-gradient(#37d98d, #049f5b); }
