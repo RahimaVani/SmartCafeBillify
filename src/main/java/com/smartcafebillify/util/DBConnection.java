@@ -6,9 +6,11 @@ import java.sql.DriverManager;
 public class DBConnection {
 
     private static final String URL =
-            "jdbc:mysql://localhost:3306/smartcafebillify";
+            "jdbc:mysql://viaduct.proxy.rlwy.net:17763/railway";
+
     private static final String USER = "root";
-    private static final String PASS = "";
+
+    private static final String PASS = "IqVeYuIvPtengHHsjhFLZhKBwwSOezMW";
 
     public static Connection getConnection() {
         try {
